@@ -4,7 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import Azpire from "@/public/Azpire.png";
 
 export const links = [
   {
@@ -35,52 +35,52 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: " Campus Ambassador at IIT Bombay Techfest",
+    location: "powai",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      " Connecting with industry experts, speakers, and fellow ambassadors.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "August-2024",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: " Data Analyst Internship at IBM SKillbuild and CSRBOX",
+    location: "WFH",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Analyzed large datasets to identify key trends, patterns, and insights, contributing to data-driven decision making for corporate social responsibility (CSR) initiatives",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "June 2024 - August 2024",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Web Developer",
+    location: "NativeSoft",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm now a Web developer Intern at NativeSoft Tech . My stack includes React, Next.js, TypeScript, Tailwind and MongoDB. I'm open to part-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2024",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "CarPooling",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "Apex Carpooling connects drivers and passengers for shared rides. Users fill out a form to join a ride, and an SMS confirmation is sent to ensure a successful booking.",
+    tags: ["React", "Next.js", "MongoDB", "Tailwind"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Safar",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Safar currently features a single-page frontend showcasing top travel destinations, nearby hotels, and local specialty foods in an intuitive and visually appealing layout.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Google"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "AZpire",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Azpire is a platform offering a variety of PowerPoint presentations across different educational fields.",
+    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Figma"],
+    imageUrl: Azpire,
   },
 ] as const;
 
@@ -94,14 +94,9 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
+  "Marketing",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
+  "C++",
   "Python",
-  "Django",
   "Framer Motion",
 ] as const;
