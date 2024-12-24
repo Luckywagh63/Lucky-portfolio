@@ -1,30 +1,13 @@
-[![Watch tutorial here](https://img.youtube.com/vi/sUKptmUVIBM/0.jpg)](https://youtu.be/sUKptmUVIBM)
+Lucky Wagh - Portfolio
+Welcome to my personal portfolio website! This site showcases my web development projects, skills, and experience. It's built to demonstrate my capabilities in building responsive, user-friendly web applications.
 
-# [Watch video here](https://youtu.be/sUKptmUVIBM)
-
-## What you will learn
-
-- Latest Next.js 13 features
-- Next.js App Router
-- Next.js Server Actions
-- Client & Server Components
-- TypeScript (Beginner & Intermediate)
-- Tailwind CSS
-- Context API
-- Advanced Animations with Framer Motion
-- React.Email & Resend
-- Custom React hooks
-- Fresh, modern UI design
-- Light & Dark mode
-- Responsive website
-
-## Important
-
-If you want to be a professional developer, you have to know the fundamentals like JavaScript and CSS really well. I highly recommend you go through my [Professional JavaScript](https://bytegrad.com/courses/professional-javascript) and [Professional CSS](https://bytegrad.com/courses/professional-css) courses.
-
-I'm close to releasing a complete React & Next.js course. Get on the email list to receive early-bird pricing: [link](https://email.bytegrad.com/).
-
-## Setup
-
-1. Add RESEND_API_KEY environment variable in .env.local
-2. In the send-email.ts action file, change the "to" email to your own email
+Features
+Responsive Design: Optimized for both desktop and mobile devices.
+Projects: View some of my key projects, including websites and applications I’ve developed.
+About Me: Learn more about my journey as a web developer.
+Contact: Get in touch with me through the contact form.
+Technologies Used
+HTML/CSS: For structuring and styling the pages.
+JavaScript: For adding interactivity.
+React: For building the user interface.
+Next.js: For server-side rendering and static site generation.
